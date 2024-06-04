@@ -1,0 +1,16 @@
+#kwick {	position: relative;margin-top: 00px;}
+#kwick .kwicks {	display: block;	height: 180px;	margin: 0px;}
+#kwick li {	float: left;}
+li:after {	content: "";}
+#kwick .kwick {
+	display: block;	cursor: pointer;	overflow: hidden;
+	height: 180px;	width: 100px;	background: #fff;
+	border-right: 2px solid #ffffff;
+}
+#kwick .kwick span { display: none;}
+#kwick .opt1 {	background-image:url('fma/hs_papyrus.jpg')}
+#kwick .opt2 {	background: #f4f4f4 url('fma/hs_techno.jpg');}
+#kwick .opt3 {  background: #e2e2e2 url('fma/hs_webdez.jpg');}
+#kwick .opt4 {	background: #f4f4f4 url('fma/hs_programming.jpg');}
+#kwick .opt5 {	background: #e2e2e2 url('fma/hs_quiz.jpg');}
+#kwick .opt6 {	background: #f4f4f4 url('fma/hs_gaming.jpg');	border-right: 0;}

@@ -1,0 +1,24 @@
+/* am_layout.css
+ * - Ambience website / Layout Elements
+ * (c) 2007 Artistik Expressionz
+ */
+
+#outer_wrapper{text-align:left; width:760px;}
+
+.floatL{float:left; margin-right:5px; margin-bottom:2px; margin-top:2px;}
+.floatR{float:right; margin-left:5px; margin-bottom:2px; margin-top:2px;}
+
+#content{padding:6px; background-color:#FFFFFF;}
+#inner-table{background-color:#FFFFFF;}
+
+#top_data{ font-size:10px;}
+#top_date{ float:left; color:#FF9900;}
+#top_links{ float:right;}
+
+#fma{background-color:#f4f4f4;border:1px #e2e2e2 solid; width:610px; height:160px; margin-left:2px; margin-right:2px; padding:0px;}
+#sponsors_wrapper{background-color:#f4f4f4; border:#e2e2e2 1px solid; padding:5px; width:150px;}
+#sponsors_wrapper a,a:active,a:visited{color:#993300; font-size:10px;}
+#sponsors_wrapper a:hover{text-decoration:none; color:#FF6600;}
+#footer{ font-size:10px; color:#FFFFFF; text-align:right;}
+#footer a, #footer a:active, #footer a:hover{ color:#FFFFFF;}
+#footer a:hover{ text-decoration:none;}

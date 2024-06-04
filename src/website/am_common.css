@@ -1,0 +1,50 @@
+/* am_common.css
+ * - Ambience website / Common Elements
+ * (c) 2007 Artistik Expressionz
+ */
+
+body{background:#333333; margin-top:0px; margin-bottom:2px; text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; color:#333333; 
+background-image:url('img/main_bg.jpg'); background-repeat:repeat-x;}
+
+h4{color:#FF6633; font-size:16px; background-image:url(img/heading_bg_plastic00.jpg); background-repeat:no-repeat; background-position:left; height:38px; padding-top:21px; padding-left:10px;}
+h3{color:#FF6600; font-size:18px; font-weight:bold;}
+h2{color:#FF9933; font-size:16px; font-weight:bold;}
+
+/*Link Styles*/
+a:link,a:visited{ color:#FF9933;}
+a:hover{color:#FF3300; text-decoration:none;}
+
+.tbl_content{background-color:#FFFFFF;}
+.tbl_data{padding:5px; margin-top:0px;}
+.reqd{color:#FF3300;}
+
+#top_links{ color:#999999;}
+#top_links a:link,#top_links a:visited{text-decoration:underline; color:#999999;}
+#top_links a:hover{text-decoration:none; color:#333333;}
+
+/*Glossy main navigation menu styles*/
+.glossymenu{
+list-style-type: none;
+margin: 5px 0; padding: 0; width: 150px;
+border: 1px solid #9A9A9A;
+border-bottom-width: 0;
+}
+.glossymenu li a{
+background: white url(img/nav_glossy_norm.jpg) repeat-x bottom left;
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: white; display: block; width: auto; padding: 3px 0; padding-left: 10px;
+text-decoration: none;
+}
+/*IE only. Actual menu width minus left padding of A element (10px) */
+* html .glossymenu li a{ width: 140px;}
+.glossymenu li a:visited, .glossymenu li a:active{color: white;}
+.glossymenu li a:hover{background-image: url(img/nav_glossy_over.jpg); color:#990000;}
+
+.textBlock{background-color:#f4f4f4; border:#ABABAB 1px dashed; padding:4px; margin-bottom:4px;}
+.items_list ul,.items_list ul li{list-style-type:none;}
+.items_list li {padding:4px;}
+.success,.error{font-weight:bold; padding:4px;}
+.small_text{font-size:10px;}
+.success{color:#006600;}
+.error{color:#FF3300;}
